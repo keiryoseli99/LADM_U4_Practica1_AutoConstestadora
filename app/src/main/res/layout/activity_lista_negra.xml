@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#DAB8DF"
+    tools:context=".ListaNegra">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Auto-Contestadora\nLista Negra"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginVertical="15dp"/>
+
+    <EditText
+        android:id="@+id/nombreLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nombre:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/telLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Telefono:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/buttonLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar contacto"
+        android:backgroundTint="#E91EA5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/actualizarLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar contacto"
+        android:backgroundTint="#E91EA5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+    <ListView
+        android:id="@+id/listaNegra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

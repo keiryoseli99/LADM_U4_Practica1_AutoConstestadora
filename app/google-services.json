@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1031245996444",
+    "project_id": "ladmu4p1autocontestadora",
+    "storage_bucket": "ladmu4p1autocontestadora.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1031245996444:android:c3e874a2410fd51902a859",
+        "android_client_info": {
+          "package_name": "mx.tecnm.tepic.ladm_u4_practica1_autocontestadora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1031245996444-q1h88m7nnkseq0lncfplke5t11f7v9ev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhcbjzb1HwvgfU4EankRPchy8VynTt5L4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1031245996444-q1h88m7nnkseq0lncfplke5t11f7v9ev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
