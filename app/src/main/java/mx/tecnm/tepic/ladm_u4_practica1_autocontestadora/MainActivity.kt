@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun envioSMS() {
-        listaMensajesEnviados.clear()
+        //listaMensajesEnviados.clear()
         if (llamadasPerdidas.isNotEmpty()){
             var telefono = ""
             llamadasPerdidas.forEach {
@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
                                 SmsManager.getDefault().sendTextMessage(
                                     telefono,null,mensajeListaBlanca,null,null)
                                 listaMensajesEnviados.add(telefono)
-                                Toast.makeText(this, "SE ENVIARON LOS SMS A LOS CONTACTOS DE LISTA BLANCA", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(this, "SE ENVIO EL SMS AL CONTACTO DE LISTA BLANCA", Toast.LENGTH_SHORT).show()
                             }
                         }
                     }//for
@@ -103,7 +103,7 @@ class MainActivity : AppCompatActivity() {
                                 SmsManager.getDefault().sendTextMessage(
                                     telefono,null,mensajeListaNegra,null,null)
                                 listaMensajesEnviados.add(telefono)
-                                Toast.makeText(this, "SE ENVIARON LOS SMS A LOS CONTACTOS DE LISTA NEGRA", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(this, "SE ENVIO EL SMS AL CONTACTO DE LISTA NEGRA", Toast.LENGTH_SHORT).show()
                             }
                         }
                     }//for
